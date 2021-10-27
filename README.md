@@ -25,7 +25,17 @@ Nick's speculation:
   - issue
   - abstract
 
-Proposal: grab pdf of the html from Wayback machine and save in:
+Proposal: grab pdf and html of the archived html from Wayback machine and save in:
 
 - papers/firstauthor_X_Y.pdf  where X is volume and Y is issue
+- papers/firstauthor_X_Y.html  where X is volume and Y is issue
 - add metadata to a Googlesheet which will eventually end up here.
+  - link to Googlesheet https://docs.google.com/spreadsheets/d/1MGvhHoNrxp3xxfhu7CHUdmxVMPAU1wvLUNY3DNldDvg/edit#gid=0
+
+
+
+Issues to be thinking about
+
+- what if there are other links outside the paper?  need to flag these (paper plus page number from the pdf?)
+- did we miss anything?
+- did Nick somehow mess up the Google sheet?
