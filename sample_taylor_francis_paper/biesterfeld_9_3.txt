@@ -1,0 +1,407 @@
+Skip to Main Content
+ Taylor and Francis Online
+Access provided by Amherst College Library
+ Log in  |  Register
+ Cart
+Home   All Journals   Journal of Statistics Education   List of Issues   Volume 9, Issue 3   The Price (or Probability) Is Right
+  Search in:  
+Advanced search
+ Publication Cover  
+Journal of Statistics Education 
+Volume 9, 2001 - Issue 3
+Submit an article Journal homepage
+ Open access
+4,363
+Views
+0
+CrossRef citations to date
+0
+Altmetric
+Listen
+ReadSpeaker webReader: Listen
+
+
+Focus
+Original Articles
+The Price (or Probability) Is Right
+Amy Biesterfeld
+Published online: 01 Dec 2017
+Download citation  https://doi.org/10.1080/10691898.2001.11910535
+In this article
+1. Introduction
+2. An Overview of The Price is Right
+3. The Classroom Activity
+4. Student Responses
+5. Conclusion
+Acknowledgements
+References
+ Full Article   Figures & data   References   Citations   Metrics   Licensing   Reprints & Permissions   PDF
+Abstract
+The Price is Right is a popular U.S. television game show in which contestants play product-pricing games in order to win prizes. Games involve some knowledge of prices, but many involve the element of chance as well. This paper describes a classroom activity I have designed to help teach probability concepts to students in an upper-level course. It is based on the television game show The Price is Right. This exercise is designed to help students better understand basic concepts such as probability rules, common distributions, and expectations. The exercise is intended for an upper-level statistics course, but could easily be adapted for use in an introductory statistics course as well. This paper describes The Price is Right classroom activity in detail. Student evaluations of the activity are also included.
+
+Classroom activityMaster KeyPlinkoProbability applicationsRange Game
+1. Introduction
+
+The use of classroom activities in an elementary statistics course is quite common. There are even textbooks designed to teach introductory statistics to students using an activity-based approach (Rossman and Chance 2001; Scheaffer, Gnanadesikan, Watkins, and Witmer 1996). Some of these activities are also suitable for an upper-level probability and statistics course. However, there seem to be fewer well-known classroom activities for an advanced course in probability and statistics.
+
+This paper describes a classroom activity I have designed to help teach probability concepts to students in an upper-level course. It is based on the television game show The Price is Right (TPIR). For readers unfamiliar with TPIR, Section 2 provides an overview of the show. Section 3 describes the classroom activity in detail. Section 4 provides student evaluations. Section 5 concludes with a discussion of the activity, including its benefits, possible improvements, and differences in the activity that arise when adapting it to an elementary statistics course.
+
+2. An Overview of The Price is Right
+
+TPIR is a popular U.S. television game show. It has been televised on CBS for over 25 years. The host of the show, Bob Barker, is a well-known and well-loved personality in many American households. The current format of the show is as follows:
+
+At the beginning of TPIR, four contestants are chosen from among the audience members to “Come on down!” to Contestants' Row. The contestants then play a game called “One Bid.” The contestants are shown a prize, and each provides a bid on how much the prize costs. The contestant whose bid is nearest to the price of the prize without going over wins the prize and leaves Contestants' Row to join the host on stage to play another product-pricing game. This game will involve some knowledge of prices (as did One Bid), but will usually involve the element of chance as well. With some good luck and pricing ability, the contestant will win further prizes. After the first pricing game ends, another audience member is chosen to fill the vacancy in Contestants' Row. Beginning with another game of One Bid, the entire process is then repeated. In all, six different pricing games will be played by six different contestants.
+In addition to One Bid in Contestants' Row, there are other segments of the show in which contestants compete against each other. There are two “Showcase Showdowns,” in which three contestants at a time compete against each other for a chance to play in the final game. The winners of the two Showcase Showdowns then compete against each other at the end of the show for an opportunity to win a showcase of prizes.
+The competitive aspects of TPIR are interesting and well worth investigating. Coe and Butterworth (1995) give a thorough analysis of the Showcase Showdown. Analyzing the competitive games on TPIR involves determining each contestant's optimal strategy, and then computing each contestant's probability of winning the game if all contestants were to use their optimal strategies. Clearly, the analysis of a competitive game on TPIR is much more involved than the analysis of a pricing game played by an individual contestant.
+
+The classroom activity described in the next section focuses on the simpler pricing games played by individual contestants. Because of the probabilistic nature of many pricing games played on TPIR, one can find interesting examples that illustrate basic concepts to students who are encountering probability for the first time.
+
+3. The Classroom Activity
+
+I used this classroom activity in a one-semester probability course. After covering a significant amount of material, we used this activity as an interesting way to review what we had learned. I used one class period for this activity, but the activity could be adapted to make the actual class time shorter, if needed. Methods for shortening the activity are discussed in the conclusion.
+
+Prior to performing this activity in class, I videotaped several episodes of TPIR and determined which pricing games I wanted to use for the activity. Some games required only pricing knowledge to win. Other games were too simple, such as choosing which of two products had the higher price. I looked for games in which quantifiable probabilities were involved, such as rolling a die or drawing chips from a bag. I then wrote short descriptions for each of these games, along with a corresponding probability question. Some examples of game descriptions and probability questions are provided later in this section.
+
+Using a television and VCR in my classroom, I began the activity by showing students the beginning of an episode, starting with the initial four audience members being called down to Contestants' Row through the conclusion of the first individual pricing game. We then analyzed the first pricing game together as a class.
+
+Next, the students broke into small groups. Each group received a written description of a different pricing game from TPIR. At the end of the description, I posed a probability question pertaining to this game. Groups worked together on their problem for a short time.
+
+Last, we reconvened and viewed a video segment of a particular pricing game. A student representative from the group that worked on that pricing game then discussed the probability question with the rest of the class and presented the group's solution. We repeated this process for each of the other groups.
+
+As a side note, it is fun to interject various interesting trivia facts about TPIR during the activity. These tidbits can be found on the web site for TPIR, www.cbs.com/daytime/price/. For instance, on a recent visit to this site, I learned that:
+
+There are approximately 69 different pricing games in rotation on TPIR game show. (The web site lists the games but, unfortunately, does not provide descriptions.)
+
+There have been about 53 episodes in which all six pricing games were won, and about 59 episodes in which none of the pricing games were won.
+
+The single most expensive prize won on the show was a motor home worth more than $70,000.
+
+The biggest winner on TPIR was a student from Pepperdine College. She won a total of $88,865, which included a Lincoln and a Porsche!
+
+There are many different pricing games on TPIR which could be used in this classroom activity. Following are descriptions for three pricing games chosen specifically because each highlights a different probability topic:
+
+Master Key illustrates basic rules of probability, including the law of total probability and Bayes' rule.
+
+The Range Game illustrates continuous distributions, including the uniform distribution,
+
+Plinko illustrates the binomial distribution, expectations of linear combinations of random variables, and conditional expectations.
+
+For each of the three pricing games described below, corresponding probability questions and solutions are provided. Note that there are several questions asked for each pricing game. These questions vary in level of difficulty. You can choose which question to use based on the level of your students and the amount of time they will have to work on the problem.
+
+3.1 Master Key
+
+In this game, there are three prizes a contestant can win: a small prize (e.g., a kitchen appliance), a medium prize (e.g., a bedroom set), and a large prize (e.g., a car). Each of the prizes is “locked up” and in order to win a specific prize, the contestant must use a key to unlock that prize. There are five keys randomly placed before the contestant. One opens the lock to the small prize, another to the medium prize, another to the large prize. Another key is a dud – it does not open any of the locks. The last key is the “Master Key” which opens all three locks.
+
+The contestant has a chance to select up to two keys: He is shown a product for which two prices are given. If the contestant chooses the correct price, he can select a key. This is repeated for another product. The contestant then takes the keys he has earned (if any) and tries them on all three locks. The contestant wins any prizes that he unlocks.
+
+3.1.1 Questions
+
+Question 1: Assume that the contestant has no pricing knowledge of the two products, and therefore his decisions of choosing the correct price for each product are independent and each has a 50% chance of being right. Compute the following probabilities:
+
+What is the probability that the contestant wins no prizes?
+
+What is the probability that the contestant wins a prize, but not the car? (That is, the contestant wins only the small and/or medium prize.)
+
+What is the probability that the contestant wins the car?
+
+Given that a contestant has won the car, what is the probability that he had earned only one key?
+
+Question 2: Assume the contestant's decisions of choosing the correct price for each product are independent, and each has a probability p of being right. [Note: If the contestant has no pricing ability whatsoever, p = .5 (his decisions are like random guessing). If the contestant has perfect pricing ability, p = 1 (his decisions are always correct). If the contestant has some pricing ability, then .5 < p < 1.]
+
+As a function of p, determine the probabilities asked in Question 1. What are these probabilities when p = .5? When p = 1?
+
+Question 3: Assume the contestant's decisions of choosing the correct price for each product are independent. Let p1 be the probability that his first decision is right, and p2 be the probability that his second decision is right. [Note: If the contestant has no pricing ability whatsoever, p1 = p2 = .5 (his decisions are like random guessing). If the contestant has perfect pricing ability, p1 = p2 = 1 (his decisions are always correct). If the contestant has some pricing ability, then .5 < p1 < 1 and .5 < p2 < 1.]
+
+As a function of p1 and p2, compute the probabilities from Question 1. What are these probabilities when p1 = p2 = .5? When p1 = p2 = 1?
+
+3.1.2 Solutions
+
+We will only look at the solution for Question 3, since Question 2 is just a specific case of Question 3 (when p1 = p2 = p), and Question 1 is just a specific case of Question 2 (when p = .5).
+
+Consider the distribution for the number of keys earned, X, and the conditional probabilities for what prizes can be won given that X keys were earned. Let's define three disjoint events based on the prizes won:
+
+A = win no prizes,B = win the small and/or medium prize but not the car, and C = win the car
+The distribution of X and conditional probabilities of A, B, and C given X are displayed in a tree diagram (Figure 1).
+
+Figure 1. Tree Diagram of the “Master Key” Game.
+
+
+Display full size
+The most difficult parts of the tree diagram for students to determine are the conditional probabilities of B and C given that two keys were earned, that is, determining P(B | X = 2) and P(C | X = 2). Given that two keys were earned, a contestant is guaranteed to win at least one prize, so P(A | X = 2) = 0 and P(B | X = 2) + P(C | X = 2) = 1. Solving for P(B | X = 2) is simple when considering the game as follows: There are five keys from which the contestant can choose two. Thus, there are  possible ways to choose the two keys, each of which is equally likely to occur. Of the five keys, three result in not winning the car. Thus, of the ten possible ways to choose the two keys,  ways result in event B occurring (winning the small and/or medium prize but not the car). So P(B | X = 2) = 3/10 and P(C | X = 2) = 7/10.
+
+Using the tree diagram, P(A), P(B), and P(C) can be easily solved:
+
+
+Using Bayes' Rule, P(X = 1 | C) can also be computed:
+
+
+For the specific cases where the contestant has no pricing ability (p1 = p2 = .5) and perfect pricing ability (p1 = p2 = 1), these probabilities simplify as shown in Table 1.
+
+Table 1. Master Key Probabilities
+
+
+Display Table
+Looking at how the values for P(A), P(B), and P(C) change as a contestant's pricing ability (p) increases, it is apparent that a person's probability of winning in this game is influenced strongly by his knowledge of pricing.
+
+3.2 The Range Game
+
+A contestant is shown a prize (e.g., a personal computer and desk). A range of possible values for the price of the prize is then revealed. Say this range is from $3,000 to $3,600. There is a window of width $150 which highlights the bottom of the range. Thus, at the beginning of the game, the window covers the region from $3,000 to $3,150. Slowly, the window begins moving through the range of possible values. The object of this game is to stop the window so that the price of the prize is covered by the window. After the contestant stops the window, the correct price is revealed. If the price of the prize is highlighted by the window, the contestant wins the prize.
+
+Note that for any single Range Game that is played, the price of the prize is a fixed value. However, this value is not revealed to the contestant until the conclusion of the game. Thus, the price of the prize will be considered as a random variable in the sense that it is unknown during the game and varies each time the game is played.
+
+3.2.1 Questions
+
+Question 1: Suppose the contestant has no idea what the correct price of the prize is. That is, the contestant assumes that Y, the price of the prize, is equally likely to be any value between $3,000 and $3,600. If this assumption is correct,
+
+Compute the probability that the contestant will win the prize if the moving range covers (x, x + $150) when it is stopped, where  ($3,000, $3,450).
+
+Does any specific value of x maximize the contestant's probability of winning? What is the maximum probability of winning the prize, and at what value of x is this obtained?
+
+Question 2: Suppose the contestant believes that the price of the prize, Y, is most likely to be near the low end of the range. The contestant assumes the density function for Y is given by
+(1)
+
+If this assumption is correct,
+
+Compute the probability that the contestant will win the prize if the moving range covers (x, x + $150) when it is stopped, where  ($3,000, $3,450).
+
+Does any specific value of x maximize the contestant's probability of winning? What is the maximum probability of winning the prize, and at what value of x is this obtained?
+
+Suppose that the contestant's belief about Y (namely, that it is likely to be low) is somewhat incorrect. The price of the prize is actually likely to be near the middle of the range and has the density function
+(2)
+
+If the contestant uses the density function she believes to be correct (Equation 1) to determine when to stop the moving range, what is her actual probability of winning the prize?
+
+Now, suppose that the contestant's feeling about Y is very incorrect. The price of the prize is actually likely to be near the high end of the range and has the density function
+(3)
+
+If the contestant uses the density function she believes to be correct (Equation 1) to determine when to stop the moving range, what is her actual probability of winning the prize?
+
+3.2.2 Solutions
+
+For Question 1, we are using the uniform distribution on the interval ($3,000, $3,600). That is, Y  U(3000, 3600). Thus,
+
+
+
+The probability of winning the prize is the same no matter what value x is used. Thus, the maximum probability of winning the prize is 1/4 and is obtained at any x between $3,000 and $3,450. In summary, if the price of the prize is equally likely to be anywhere in the entire interval, it doesn't matter when the contestant stops the moving range – the chance of winning the prize is the same.
+
+For Question 2, we are using a skewed-right distribution for Y, namely (1). The probability of winning the prize is now computed as:
+
+
+
+This probability decreases as x increases from $3,000 to $3,450 (which we expect since the distribution of Y is skewed-right with the mode at $3,000). Thus, the probability of winning the prize is maximized when the moving range is stopped immediately (x = $3,000), resulting in a 7/16 (or 43.75%) probability of winning.
+
+Now, suppose the contestant believes the distribution of Y to be given by (1), so she stops the moving range immediately at ($3,000, $3,150).
+
+If the distribution for Y is actually symmetric, given by (2), then
+
+If the distribution for Y is actually skewed negative, given by (3), then
+
+
+Although Question 2 used specific distributions for Y, it illustrates the following general point about The Range Game: If the contestant has good pricing ability and is able to correctly recognize where the price is most likely to fall (the mode of the distribution), the contestant will have a good probability of winning the prize. However, as the contestant's pricing ability decreases (that is, as the true distribution for Y and the contestant's belief about the distribution become quite different), the probability of winning the prize decreases.
+
+3.3 Plinko
+
+In the game of Plinko, a contestant is given a chip and has the opportunity to earn up to four more chips. To determine how many additional chips will be given to the contestant, she is shown four products. For each product, an incorrect price is given. The contestant must decide whether the correct price is higher or lower than the one given. For each correct decision made by the contestant, one additional chip is earned. Thus, after this portion of the game, the contestant will have between one and five chips to drop onto the Plinko board.
+
+After the number of chips is determined, the contestant releases the first chip from any of the nine slots at the top of the Plinko board (illustrated in Figure 2). As the chip makes its way down the board, it will encounter 12 pegs. If it encounters a peg that is directly adjacent to a wall, it simply falls in the only available direction. Otherwise, it falls to the left or right of the peg with equal probability. The chip will ultimately fall into a bin at the bottom of the Plinko board, and the contestant wins the amount shown. This process is repeated for each of the remaining chips, if any, for a chance to win up to $50,000 in cash. Because of the amounts involved, this is one of the most popular games on TPIR!
+
+Figure 2. Illustration of the “Plinko” Board.
+
+
+Display full size
+3.3.1 Questions
+
+Question 1: Contestants with multiple chips usually vary the slots from which they release the chips. Does it matter where you start a chip? To decide, answer the following questions:
+
+For each of the three middle slots at the top of the Plinko board (slots 4, 5, and 6), find the probability that a chip starting in that slot results in winning $10,000.
+
+If a chip is dropped in the middle slot of the Plinko board (slot 5), the amount won, U, has the following distribution:
+(4)
+
+If a chip is dropped in either of the slots adjacent to the middle slot (slots 4 or 6), the amount won, V, has the following distribution:
+
+
+Compute E(U), the expected winnings for a single chip dropped in slot 5, and E(V), the expected winnings for a single chip dropped in slot 4 or 6.
+
+Based on your calculations above, is it better for a contestant to drop a chip from the middle slot, or a slot just adjacent to the middle? Briefly explain. What do you infer happens to the probability of winning $10,000 and the expected winnings if a chip is dropped into a slot even further from the middle?
+
+Question 2: The middle slot at the top of the Plinko board results in the highest probability of a chip winning $10,000. This probability decreases as the slots become further away from the middle slot. The middle slot also has the highest expected winnings of any slot, with the expected winnings decreasing for slots that are further from the middle. Thus, a contestant wise to the laws of probability would always drop her chip(s) into the middle slot. (Interestingly enough, many contestants vary the slots from which they drop their chips, even using the outermost slots!)
+
+If a contestant drops a chip into the middle slot of the Plinko board, the amount won from this chip, U, has the distribution given by (4) above.
+
+Compute the expected value and standard deviation for the amount won for a chip dropped from the middle slot.
+
+Now suppose the contestant has x chips (x = 1, 2, …, 5), and will drop each chip from the middle slot. Let T represent the total amount won. Then , where Ui is the amount won from chip i.
+
+Compute the E(T | x) and SD(T | x), the expected value and standard deviation for the total amount won.
+
+Let the random variable X represent the number of chips the player gets to drop from the Plinko board. Beyond the initial chip which is given to the contestant, suppose that each additional chip is earned with probability p, and that each chip is earned independently of the others. Note that if the contestant has no pricing ability, her decisions are equivalent to random guessing, so p = .5. If the contestant has perfect pricing ability, her decisions are always correct, so p = 1. In general, .
+
+Compute E(X) and SD(X), the expected value and standard deviation for the number of chips dropped into the Plinko board.
+
+Assuming that the contestant always uses the middle slot of the Plinko board, let T represent the total amount won. Thus, , where Ui is the amount won from chip i. (Note that X is now random, rather than a fixed value.) Compute E(T) and SD(T), the expected value and standard deviation for the total winnings in Plinko. How do your answers simplify when p = .5? When p = 1?
+
+3.3.2 Solutions
+
+We start by computing the probability that a chip dropped in the middle slot of the Plinko board (slot 5) will end up in the $10,000 bin. The chip will encounter 12 pegs on the Plinko board and each results in the chip falling to the left or right. Let Y = number of pegs out of 12 that result in the chip falling to the left. Note that Y is not a binomial random variable because of the constraints imposed by the walls of the Plinko board. For instance, the chip cannot fall to the left 12 times; thus P(Y = 12) = 0.
+
+For a chip dropped in slot 5 to end up in the $10,000 bin, the chip must fall to the left exactly 6 times (Y = 6). If the chip hits a wall of the board, then it moved to the left or right at least 8 times, and could not end up in the $10,000 bin. Thus, the complications that result from the chip hitting a wall do not affect computing the probability of Y = 6. Thus, we may use the binomial distribution with n = 12 and p = 1/2 to compute the probability of Y = 6:
+
+
+Similarly, if the chip is dropped from the slot just to the left of the middle slot (slot 4), then it wins $10,000 only if the chip falls to the left exactly 5 times (and to the right 7 times). Again, it is impossible for a chip starting in slot 4 to hit a wall of the Plinko board and still end up in the $10,000 bin. Thus, no complications exist from the wall constraints of the Plinko board, so
+
+
+A chip dropped from slot 6 (the slot just to the right of the middle slot) has the same probability of winning $10,000 as a chip dropped from slot 4. This is simply due to the symmetry of the Plinko board, and our assumption that pegs in the middle of the board have an equal probability of the chip falling to the left or right.
+
+Note that for the remaining slots along the top of the Plinko board, computing the probability of winning $10,000 is complicated by the wall constraints. Typically, the wall constraints will affect computing the probability of landing in a particular bin when starting from a particular slot. Hastings (1997, pp. 93–95) gives an interesting analysis of Plinko which includes the determination of these probabilities.
+
+Using slot 5, the expected winnings for a single chip is computed as
+
+
+Using slots 4 or 6, the expected winnings for a single chip is
+
+
+Slot 5 has a higher expected value than slots 4 or 6. Thus, one should prefer to drop a chip from slot 5 since it results in a higher payoff, on average, over many runs. In the long run, a contestant would earn approximately $2,557.91 - $2,265.92 = $291.99 more per chip by using slot 5 over slots 4 or 6. It seems reasonable that the same pattern observed between slot 5 and slots 4 or 6 would continue for the remaining slots: As slots become further away from the middle slot, the probability of winning $10,000 and the expected winnings decrease. This has been shown by Hastings (1997, pp. 93–95).
+
+Using slot 5, the expected value for the winnings from a single chip was computed to be $654825/256, or approximately $2,557.91. The standard deviation can also be computed:
+
+
+Now, if x chips are dropped from slot 5, the total winnings are , where U1, …, Ux are independent and identically distributed random variables. Using the rules of expectations for linear combinations of random variables,
+
+
+Now let the number of chips dropped on the Plinko board be a random variable, X. Then X = W + 1, where W has a binomial distribution with parameters n = 4 and p (since the contestant is given one chip, then has four independent tries to earn another chip). Thus,
+
+
+To compute the expected value for the total winnings when all chips are dropped from slot 5, we will use the law of total expectation:
+
+
+The variance (and hence, standard deviation) for the total winnings can also be computed using conditional expectations:
+
+
+The iterative expectation formulas for E(T) and Var(T) can be found in many upper-level probability and statistics textbooks (e.g., Rice 1995, pp. 137–139).
+
+If a contestant has no pricing ability, then p = .5 (additional chips are earned with probability 1/2 each). If a contestant has perfect pricing ability, then p = 1 (additional chips are always earned). The expected value and standard deviation for the total winnings under these circumstances simplify nicely and are shown in Table 2.
+
+Table 2. Expected Value and Standard Deviation for Total Winnings in Plinko
+
+
+Display Table
+Note that the expected value for the total winnings from playing Plinko, E(T), is an increasing linear function of p (which measures the contestant's pricing ability). Thus, the more pricing ability a contestant has, the more cash the contestant wins, on average. However, the standard deviation is large relative to the expected value, even when a contestant has perfect pricing ability (p = 1). This indicates that ‘winning big’ in this game depends mostly on chance.
+
+4. Student Responses
+
+Eighteen students participated in TPIR activity. Sixteen of these students evaluated this activity anonymously at the end of the term, approximately seven weeks after the activity. Due to the amount of time between the activity and its end-of-term evaluation, two of the students admitted that their memories of the activity had faded, although they did seem to remember enjoying it. Specifically, the students stated:
+
+“Plinko, I remember as being particularly interesting. I do not really remember it too much, though.”
+
+“Pretty interesting, I'm not sure I remember the specifics though.”
+
+Only one student had a strong negative opinion about the activity, mainly due to the student's dislike of group work. Specifically, the student stated, “Nothing strikes me as particularly great about this day. I disliked the group work, and I thought that my time was wasted while listening to students talking at the blackboard.” Another student thought the activity was “corny.” However, the rest of the written statements evaluating the activity were overwhelmingly positive:
+
+“It was nice to see the tangible examples of the various kinds of distributions and I liked working in small groups to present to the class. Also, it was nice for variety.”
+
+“Good change of pace; get to see application.”
+
+“I really liked the group work, use of what we learned and then watching on TV.”
+
+“I liked working in a group. It was also pretty neat how I could apply what I was learning to a show I used to watch all the time. It was fun.”
+
+“That was fun.”
+
+“So much fun. See these do have ‘real life’ application.”
+
+“It was fun to see probability in action. I have no objections to this approach.”
+
+“I liked watching the game and then figuring out the probabilities after seeing it in action.”
+
+In order to get a quantifiable measure of the activity's success, students also provided a numerical rating of the activity. On the evaluation form, students were asked
+
+“How effective was The Price is Right class activity in terms of helping you better understand the material? Rate on a scale of 1 (not effective) to 9 (very effective).”
+The mean response was 7.125 and the standard deviation was 1.7. In addition, the first, second, and third quartiles were 5.75, 8, and 8.25, respectively. As the descriptive statistics show, the distribution was clearly skewed to the left, indicating that most students found the activity to be effective in helping them better understand the material.
+
+5. Conclusion
+
+Both the written comments and numerical ratings of this activity suggest the same conclusion: a large majority of students found this classroom activity worthwhile. As the students' comments suggest, the benefits of this activity are mainly:
+
+The opportunity to see probability applied to a real-life event. This helps students see that probability exists everywhere, even on a television game show.
+
+The opportunity for students to work in groups and present material to the rest of the class. Most students enjoy collaborating with other students in a problem-solving setting. I believe that this method of reviewing material is very effective. It allows students to determine for themselves what probability tools are necessary to solve the problem, thus helping them better retain this knowledge.
+
+One of the nicest features about this classroom activity is its flexibility. Depending on such things as the topics the instructor wants to review and the amount of time he or she wants to spend on the activity in class, one can easily modify the classroom activity as described in Section 2. For instance, different games from those described can be used or different probability questions can be asked.
+
+Another way to modify the activity would be to not use videotaped clips of TPIR during class. The activity would still provide effective probability examples, and the amount of preparation and class time spent on the activity would be reduced. However, using videotaped segments does provide two benefits:
+
+It allows any students who are unfamiliar with TPIR to better understand the show and the specific pricing games that are being analyzed, and
+
+The students seem to enjoy the excited nature of the contestants on the show. As a result, the students become excited about the classroom activity in which they are engaging.
+
+Although the activity described in Section 2 was a great success, there is one modification I would make the next time I use this activity. Rather than performing the activity entirely in one class period, I would break the activity into two class periods in the following way:
+
+At the end of the first class, show the first clip from TPIR and go over the pricing game together. Then assign students to small groups and hand out different pricing games to each group. The students would then work on their problem outside of class, with a strong encouragement to work with other group members. At the beginning of the second class period, the groups would quickly convene to compare answers and select a representative. Each group's representative would then present their group's problem and solution to the rest of the class.
+There are three reasons why I would like to modify the activity in this way. First, students who greatly dislike group work can work individually instead. Another reason is that it would reduce the total amount of class time spent on the activity because the group work would occur outside of class. Most importantly, it would allow me to ask more challenging and interesting questions, since students would have more time to think about the solution.
+
+Lastly, this activity could be easily modified to use in an elementary course. Obviously, only pricing games and questions that pertain to topics they have covered would be used. This would result in simpler questions being asked of the students. For instance, Question 1 for Master Key and Question 1 for Plinko would both be appropriate questions for an elementary statistics class. Note that these simpler questions still have merit. Students will observe the interesting fact that contestants always have some positive probability of winning the game. And surprisingly, this probability is often quite substantial, even when the contestant's pricing ability is very poor.
+
+However, by being able to ask more challenging questions (as is possible in an upper-level course, particularly if students are given a lot of time to consider the problem), another interesting point is observed: As a contestant's pricing ability increases, so does the contestant's probability of winning. This is as it should be… After all, the name of the game is The Price is Right!
+
+Acknowledgement
+
+An earlier version of this paper was presented at the MAA Session on Teaching the Practice of Statistics at All Levels, II, Joint Mathematics Meeting, Baltimore, MD, January 10, 1998.
+
+References
+
+Coe, P. R., and Butterworth, W. (1995), “Optimal Stopping in ‘The Showcase Showdown,’” The American Statistician, 49, 271–275. [Taylor & Francis Online], [Web of Science ®], [Google Scholar]OpenURL
+Hastings, K. J. (1997), Probability and Statistics, Reading, MA: Addison-Wesley Longman, Inc., pp. 93–95. [Google Scholar]OpenURL
+Rice, J. (1995), Mathematical Statistics and Data Analysis (2nd ed.), Belmont, CA: Duxbury Press, pp. 137–139. [Google Scholar]OpenURL
+Rossman, A., and Chance, B. (2001), Workshop Statistics: Discovery with Data (2nd ed.), Emeryville, CA: Key College Publishing. [Google Scholar]OpenURL
+Scheaffer, R. L., Gnanadesikan, M., Watkins, A., and Witmer, J. A. (1996), Activity-Based Statistics, New York: Springer-Verlag. [Crossref], [Google Scholar]OpenURL
+   More Share Options
+ 
+Related research 
+People also read
+Recommended articles
+Cited by
+The Price is Right Again
+Robert E. Burks et al.
+Journal of Statistics Education
+Published online: 29 Aug 2017
+Information for
+
+Authors
+Corporate partners
+Editors
+Librarians
+Societies
+Open access
+
+Overview
+Open journals
+Open Select
+Dove Medical Press
+F1000Research
+Opportunities
+
+Reprints and e-prints
+Advertising solutions
+Accelerated publication
+Corporate access solutions
+Help and information
+
+Help and contact
+Newsroom
+All journals
+Books
+Keep up to date
+
+Register to receive personalised research and resources by email
+Sign me up
+Taylor and Francis Group Facebook page Taylor and Francis Group Twitter page Taylor and Francis Group Linkedin page
+Taylor and Francis Group Youtube page Taylor and Francis Group Weibo page
+Copyright © 2021 Informa UK Limited Privacy policy Cookies Terms & conditions Accessibility
+Registered in England & Wales No. 3099067
+5 Howick Place | London | SW1P 1WG
+
+ Taylor and Francis Group
+Accept
+We use cookies to improve your website experience. To learn about our use of cookies and how you can manage your cookie settings, please see our Cookie Policy. By closing this message, you are consenting to our use of cookies.
+
