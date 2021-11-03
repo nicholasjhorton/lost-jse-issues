@@ -1,0 +1,532 @@
+
+<!-- saved from url=(0104)https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./weldon_8_3_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app28.us.archive.org';v.server_ms=295;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./weldon_8_3_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./weldon_8_3_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm","20130307063836","https://web.archive.org/","web","/_static/",
+	      "1362638316");
+</script>
+<link rel="stylesheet" type="text/css" href="./weldon_8_3_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./weldon_8_3_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Journal of Statistics Education, V8N3:Weldon</title>
+</head>
+<body bgcolor="#FFFFFF" data-new-gr-c-s-check-loaded="14.1036.0" data-gr-ext-installed=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./weldon_8_3_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm","20130307063836",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], "False");
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<h1>A Simplified Introduction to Correlation and
+Regression</h1>
+
+<p>K. L. Weldon<br>
+Simon Fraser University</p>
+
+<p>
+<cite>Journal of Statistics Education</cite> v.8, n.3 (2000)
+
+</p><p>Copyright (c) 2000 by K. L. Weldon, all rights reserved.
+This text may be freely shared among individuals, but it
+may not be republished in any medium without express
+written consent from the author and advance notification of
+the editor.</p> 
+
+<p></p><hr><p></p>
+
+<p><strong>Key Words:</strong>  Distance; Prediction error;
+Root mean square; Standard deviation; Standardized
+variables.</p> 
+
+<h2>Abstract</h2>
+
+<p>The simplest forms of regression and correlation involve
+formulas that are incomprehensible to many beginning
+students. The application of these techniques is also often
+misunderstood.  The simplest and most useful description of
+the techniques involves the use of standardized variables,
+the root mean square operation, and certain distance
+measures between points and lines. On the standardized
+scale, the simple linear regression coefficient equals the
+correlation coefficient, and the distinction between
+fitting a line to points and choosing a line for prediction
+is made transparent.  The typical size of prediction errors
+is estimated in a natural way by summarizing the actual
+prediction errors incurred in the dataset by use of the
+regression line for prediction.  The connection between
+correlation and distance is simplified. Despite their
+intuitive appeal, few textbooks make use of these
+simplifications in introducing correlation and regression.
+</p>
+
+
+<h1>1. Introduction</h1>
+
+<p>1 The introduction to association between two
+quantitative variables usually involves a discussion of
+correlation and regression. Some of the complexity of the
+usual formulas disappears when these techniques are
+described in terms of standardized versions of the
+variables. This simplified approach also leads to a more
+intuitive understanding of correlation and regression. 
+More specifically, the following facts about correlation
+and regression can be simply expressed.</p>
+
+<p>2 The correlation <i>r</i> can be defined simply in terms
+of standardized variables <i>z<sub>x</sub></i> and
+<i>z<sub>y</sub></i> as <nobr><i>r</i> = <img width="21" height="32" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img2.gif" alt="$\sum$"><i>z<sub>x</sub>z<sub>y</sub>&nbsp;/n</i>.</nobr>
+This definition has the advantage of being described in
+words as the average product of the standardized variables.
+No mention of variance or covariance is necessary for
+this.  The regression line <nobr><i>z<sub>y</sub> = r
+z<sub>x</sub></i></nobr> is simple to understand. 
+Moreover, the tendency of regression toward the mean is
+seen to depend directly on <i>r</i>.  The appearance of a
+scatterplot of standardized variables depends only on
+<i>r</i>.  The illusion of higher correlation for unequal
+standard deviations is avoided. The prediction error of a
+regression line is the distance of the data points from the
+regression line. These errors may be summarized by the root
+mean square of the vertical distances: for standardized
+variables this is <img width="65" height="40" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img7.gif" alt="$\sqrt{1 - r^{2}}$">. Correlation is related to the
+perpendicular distances from the standardized points to the
+line of slope 1 or -1, depending on the sign of the
+correlation. In fact, the root mean square of these
+perpendicular distances is <img width="68" height="38" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img15.gif" alt="$\sqrt{1 - \left\vert r \right\vert}$">.</p>
+
+<p>3 The key to these simplifications and interpretations is
+an understanding of the standardization process.  For this
+it is necessary for students to understand that a standard
+deviation really does measure typical deviations.  This is
+aided by the use of the "<i>n</i>" definition of the
+standard deviation:</p>  
+<p></p><center><img width="159" height="65" src="./weldon_8_3_files/weldon.img4.gif" alt="\begin{displaymath}s = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left(x_{i} - \overline{x} \right)^{2}} \end{displaymath}"></center><p></p>
+
+<p>It is apparent that this is the average squared
+deviation, and taking the square root of this is a natural
+step to recover the original units.  So a standardized
+observation <img width="60" height="44" src="./weldon_8_3_files/weldon.img6.gif" align="absmiddle" alt="\begin{displaymath}\frac{\left(x_{i} - \bar{x} 
+\right)}{s} \end{displaymath}"> is the number of these
+"typical" deviations that an observation is from the mean. 
+This describes the measurement relative to the (sample)
+distribution from which it comes. </p>
+
+<p>4 For students who must deal with traditional courses
+and textbooks using a strictly formula-based approach, it
+may be necessary to use the suggestions here in a first
+introduction.  Once this simple introduction is
+accomplished, the more traditional approach could still be
+used, and shown to yield essentially the same results. The
+simplified introduction gives an easy-to-absorb sense of
+the strategy, and statistical software can take care of the
+slightly different arithmetic that working with
+standardized variables entails. The simplified approach
+suggested here has been used in many semesters of an
+introductory course based on the text by 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Weldon">Weldon (1986)</a>, and
+no <i>n</i> vs. <i>n</i> - 1 confusion has been noted by
+the students or by instructors of subsequent statistics
+courses. </p>
+
+
+<h1>2.  Details</h1>
+
+<p>5 The definition <i>r</i> = <img width="21" height="32" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img2.gif" alt="$\sum$"><i>z<sub>x</sub>z<sub>y</sub>&nbsp;/n</i>
+assumes that the "<i>n</i>" definition of the standard
+deviation is used.  A similar definition using the
+"<i>n</i> - 1" definition of the standard deviation would
+require the <i>n</i> in the denominator to be replaced by
+<nobr><i>n</i> - 1</nobr>. To be able to describe the
+correlation as the average product of the <i>z</i>'s not
+only simplifies the formula, but allows the student to
+think of the scatterplot quadrants as determining the
+correlation.  The effect of outliers can be gauged more
+simply than with the original units formula.</p>
+
+<p>6 It is important for students to realize that the
+regression line is not a simple curve fit to the points,
+but rather a line designed for prediction.  The formula
+<nobr><i>z<sub>y</sub> = r z<sub>x</sub></i></nobr> makes
+this quite clear since the "point-fit" line
+<nobr><i>z<sub>y</sub> = z<sub>x</sub></i></nobr>, which
+minimizes the sum of squares of the perpendicular
+distances, is usually a line of greater slope than the
+regression line.  (<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Freedman">Freedman, Pisani, and Purves 1998</a> 
+call <nobr><i>z<sub>y</sub> = z<sub>x</sub></i></nobr> the SD
+line.) Moreover, the prediction lines
+<nobr><i>z<sub>y</sub> = r z<sub>x</sub></i></nobr> and
+<nobr><i>z<sub>x</sub> = r z<sub>y</sub></i></nobr> (or
+<nobr><i>z<sub>y</sub> = (1/r) z<sub>x</sub></i></nobr>)
+are clearly not the same line. Another effect simplified by
+this approach is that of regression toward the mean, with
+the predicted <i>z<sub>y</sub></i> less extreme than
+<i>z<sub>x</sub></i>.</p>
+
+<p>7 Regression predictions can be made with the regression
+equation expressed in original units, but the direct use of
+<nobr><i>z<sub>y</sub> = r z<sub>x</sub></i></nobr> seems a
+viable alternative. The given value of <i>X</i> is easily
+converted into a <i>z<sub>x</sub></i> value, the prediction
+<i>z<sub>y</sub></i> can be simply obtained, and then
+<i>z<sub>y</sub></i> can be converted back into original
+units. While this involves a bit more arithmetic, the
+conceptual simplicity involving only the standardization
+idea and the <i>r</i> multiplier make this approach
+preferable for the novice. Note also that the error of
+prediction can be found on the <i>z</i> scale using <img width="65" height="40" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img7.gif" alt="$\sqrt{1 - r^{2}}$">, and can
+then be transformed back to original units. </p>
+
+<p>8 It is well known that stretching one scale of a
+scatterplot can increase the apparent correlation (even
+though the correlation is actually unchanged). Portraying
+data in their standardized scale removes this illusion.  It
+also makes the point that the correlation does not depend
+on the scales of the variables.  Moreover, "banking to
+45<sup>o</sup>" (that is, choosing an aspect ratio for the
+plot that portrays trends as close to ±
+45<sup>o</sup> as possible) is recommended for graphical
+assessment (<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Cleveland">Cleveland 1993</a>).</p>
+
+<p>9 The distance of a point  (<i>x</i><sub>0</sub>,
+<i>y</i><sub>0</sub>) to a line <nobr><i>y = r x</i></nobr>
+in the direction of the <i>y</i> axis is <nobr>|
+<i>y</i><sub>0</sub> - <i>r x</i><sub>0</sub> |</nobr>.
+Thus for standardized variables, the root mean squared
+distance is <img width="142" height="45" src="./weldon_8_3_files/weldon.img8.gif" align="absmiddle" alt="\begin{displaymath}\sqrt{\frac{1}{n} \sum \left(z_{y}
+- rz_{x} \right)^{2}} \end{displaymath}">. Expanding and
+using <img width="88" height="38" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img9.gif" alt="$\frac{1}{n} \sum z^{2} = 1$">
+produces the well-known result that the root mean square
+distance of the data from the regression line is <img width="65" height="40" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img7.gif" alt="$\sqrt{1 - r^{2}}$"> times the
+standard deviation, which in this case is 1.  The condition
+<img width="88" height="38" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img9.gif" alt="$\frac{1}{n} \sum z^{2} = 1$">
+only depends on the use of the "<i>n</i>" definition for
+the standard deviation—with the "<i>n</i> - 1"
+definition of <i>r</i> and the standard deviation, the same
+result is true.</p>
+
+<p>10 The minimum (i.e., orthogonal) distance of a point 
+(<i>x</i><sub>0</sub>, <i>y</i><sub>0</sub>) to a line
+<nobr><i>ax + by + c</i> = 0</nobr> is <nobr>|
+<i>ax</i><sub>0</sub> + <i>by</i><sub>0</sub> + <i>c</i>
+|/(<i>a</i><sup>2</sup> +
+<i>b</i><sup>2</sup>)<sup>1/2</sup></nobr>.  The line of
+slope "sign of <i>r</i>" = sgn(<i>r</i>) in standard units
+is <nobr><i>z<sub>x</sub></i> - (sgn(<i>r</i>))
+<i>z<sub>y</sub></i> = 0</nobr>, and the distance of a
+point <nobr>(<i>z<sub>x</sub></i>,
+<i>z<sub>y</sub></i>)</nobr> to this line is therefore</p> 
+<p></p><center><img width="125" height="48" src="./weldon_8_3_files/weldon.img10.gif" align="middle" alt="\begin{displaymath}\frac{ \left\vert z_{x} -
+(\mbox{sgn}(r)) z_{y} \right\vert }{\sqrt{2}}
+\end{displaymath}">.</center>
+
+The root mean square of these distances is<p></p>
+
+<a name="Equation1"></a><div align="CENTER"><a name="Equation1"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="324" height="71" src="./weldon_8_3_files/weldon.img11.gif" align="middle" alt="\begin{displaymath}\frac{1}{\sqrt{2}} \left(\frac{\left( \sum z_{x}^{2} + \sum z_{y}^{2} - 2 \mbox{sgn}(r) \sum z_{x}z_{y}
+\right) }{n}\right)^{1/2} \end{displaymath}"> = <img width="68" height="38" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img15.gif" alt="$\sqrt{1 - \left\vert r \right\vert}$">.</td>
+<td width="10" align="RIGHT">
+(1)</td></tr>
+</tbody></table>
+
+</div>
+
+<p>This result appeared in <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Weldon">Weldon (1986)</a>. </p>
+
+
+<h1>3. "<i>n</i>" Definition of Sample Standard Deviation</h1>
+
+
+<p>11 This "<i>n</i>" definition simplifies many things in
+teaching statistics.  The justification for the more common
+<nobr>"<i>n</i> - 1"</nobr> definition is based on the
+unbiasedness of <i>s</i><sup>2</sup> for estimating <img width="23" height="19" align="BOTTOM" border="0" src="./weldon_8_3_files/weldon.img13.gif" alt="$\sigma^{2}$">, which is not
+really relevant for estimation of <img width="15" height="16" align="BOTTOM" border="0" src="./weldon_8_3_files/weldon.img12.gif" alt="$\sigma$">.  One could even
+question the need for  unbiasedness when it costs us in
+terms of mean squared error. The "<i>n</i>" definition is
+easier to explain and has smaller mean squared error.  </p>
+
+<p>12 Some instructors are reluctant to use the "<i>n</i>"
+definition of the sample standard deviation because it
+complicates the discussion of the <i>t</i>-statistic. But
+actually, if the <i>t</i>-statistic is defined in terms of
+the "<i>n</i>" definition of the sample standard deviation,
+the divisor "<i>n</i> - 1" appears in its proper place as a
+degrees-of-freedom factor, preparing the student in a
+natural way for the chi-square and
+<i>F</i>-statistics:</p>
+<p></p><center><img width="104" height="49" src="./weldon_8_3_files/weldon.img14.gif" align="middle" alt="\begin{displaymath}t = \frac{(\overline{x} - \mu)}{s / \sqrt{n-1}} \end{displaymath}">.</center><p></p>
+
+<p>The <i>s</i> in this formula is 
+</p><center><img width="159" height="65" src="./weldon_8_3_files/weldon.img4.gif" alt="\begin{displaymath}s = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left(x_{i} - \overline{x} \right)^{2}} \end{displaymath}"></center><p></p>
+<p>as before.  Nevertheless, for instructors who wish to
+stick with the "<i>n</i> - 1" definition, the approach to
+correlation and regression given in the rest of this paper
+will still hold together. </p>
+
+<p>13 Another reason for avoiding the <i>n</i> definition is
+the confusion that might be caused by the majority
+preference for the <i>n</i> - 1 definition in other
+textbooks. However, once the idea of standard deviation is
+understood through the simplest approach, the existence of
+variations may not be so disturbing. The <i>n</i> - 1
+definition can be viewed in regression contexts as an
+"improvement" on the <i>n</i> definition, and its
+extensions to the multi-parameter case will likely be
+accepted without too much consternation.</p>
+
+
+<h1>4. An Example</h1>
+
+<p>14 To illustrate the above formulas, consider the
+following dataset relating performance on a mathematics
+test with performance on a verbal test. The data were
+sampled from a larger dataset in <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Minitab">Minitab (1994)</a>. 
+The first step for the student is to plot the data. Using
+the default scaling, Minitab produces the plot in 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Figure1">Figure 1</a>.
+</p>
+
+
+<p><a name="Figure1"></a></p><hr><p></p>
+
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon01.gif">
+<img src="./weldon_8_3_files/weldon01.icon.gif">Figure 1 (2.2K gif)</a>
+
+<p>Figure 1. Scatterplot of "Grades" Data from Minitab. 
+The scaling is the default scaling used by Minitab.</p>
+
+<p></p><hr><p></p>
+
+
+<p>15 If the variables are centered, and the scales
+equalized, we obtain the plot in <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Figure2">Figure 2</a>.  
+On this scale, it can be seen that the perpendicular distances of the
+points from the line of slope one (which may be called the
+point-fit line or the SD line) are usually less than one
+but greater than 0.5. <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Equation1">Equation (1)</a>
+says that the root mean square of these distances is equal
+to <img width="68" height="38" align="MIDDLE" border="0" src="./weldon_8_3_files/weldon.img15.gif" alt="$\sqrt{1 - \left\vert r
+\right\vert}$">. In this case, the sample correlation
+<i>r</i> is approximately 0.5, so the root mean square
+distance is 0.7, which is about what we expect from
+visualizing the graph.</p>
+
+<p><a name="Figure2"></a></p><hr><p></p>
+
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon02.gif">
+<img src="./weldon_8_3_files/weldon02.icon.gif">Figure 2 (2.8K gif)</a>
+
+<p>Figure 2. Equal-Scales Scatterplot of "Grades" Data.
+Both scales are in standardized units.</p>
+
+<p></p><hr><p></p>
+
+<p>16 Another observation that can be made from the graph
+concerns the average product. The average product is the
+correlation, and the idea of this can be gleaned from a
+graph like <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Figure3">Figure 3</a>, 
+in which the points are annotated with
+the product of the standard scores.  The fact that the
+average product is 0.5 is not obvious, but one can at least
+see which quadrants must have the largest contributions to
+the average in order that the correlation be positive.</p>
+
+<p><a name="Figure3"></a></p><hr><p></p>
+
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon03.gif">
+<img src="./weldon_8_3_files/weldon03.icon.gif">Figure 3 (3.1K gif)</a>
+
+<p>Figure 3. Pointwise Contributions to the Correlation
+Coefficient.  The average of these
+<i>z<sub>x</sub>z<sub>y</sub></i> contributions is the
+correlation coefficient.</p>
+
+<p></p><hr><p></p>
+
+
+<p>17 Another feature of the "average product" definition of
+the correlation is the ability to detect outliers.  From
+the graph it can be observed that a point at (-1.5, 1.5)
+would seem not to belong to the oval shaped scatter, even
+though the individual values of -1.5 and 1.5 on either
+variable are not unusual. Such a point would be in the
+extreme lower tail of a dotplot of the products of the
+standardized variables, confirming from this definition of
+correlation that the point is unusual. Note that the
+addition of this one point would reduce the sample
+correlation from .50 to .38.</p>
+
+<p>18 The regression line for predicting the verbal score
+from the math score is, in the standardized scale,
+<nobr><i>z</i><sub>V</sub> = <i>r z</i><sub>M</sub></nobr>;
+it is shown graphically in <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Figure4">Figure 4</a>.  
+This graph shows clearly the difference between the "point-fit" line
+and the regression line for predicting V from M.  Moreover,
+the line for predicting M from V is clearly a different
+line.</p>
+
+<p><a name="Figure4"></a></p><hr><p></p>
+
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon04.gif">
+<img src="./weldon_8_3_files/weldon04.icon.gif">Figure 4 (3.2K gif)</a>
+
+<p>Figure 4. Regression Line and Point-Fit Line.  The
+point-fit line is "closest" to the data points.</p>
+
+<p></p><hr><p></p>
+
+<p>19 As a final step in using the
+<nobr><i>z</i><sub>V</sub> = <i>r z</i><sub>M</sub></nobr>
+regression equation, it is necessary to convert the
+regression line back to the original units. First we need
+to record the mean and standard deviation (SD) of each
+variable: <nobr>mean(V) = 619</nobr>, <nobr>SD(V) =
+71</nobr>; <nobr>mean(M) = 649</nobr>, <nobr>SD(M) =
+65</nobr>. Then, substituting directly into
+<nobr><i>z</i><sub>V</sub> = <i>r
+z</i><sub>M</sub></nobr>,  one gets <nobr>(V - 619)/71 =
+0.5(M - 649)/65</nobr>.  For example, if <nobr>M =
+700</nobr>, the right side is <nobr>0.5(51)/65 =
+.39</nobr>, so that the predicted V is <nobr>619 + .39(71)
+= 647</nobr>.  For many predictions, one may need the
+explicit equation <nobr>V = 619 + 71(0.5)(M -
+649)/65</nobr>, which simplifies to <nobr>V = 265 +
+.54M</nobr>. Compared to the arithmetic of formulas for the
+intercept and slope, which tend to obscure the operation,
+this is relatively straightforward. </p>
+
+
+<h1>5. Related Work</h1>
+
+<p>20 Most textbooks introduce correlation and regression
+via formulas. For example, 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Moore">Moore and McCabe (1993,
+p.&nbsp;164)</a> and <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Wild">Wild and Seber (2000, p.&nbsp;540)</a> use the
+<i>n</i> - 1 definition of the correlation and define the
+regression slope in terms of the unstandardized variables
+(<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Moore">Moore and  McCabe 1993, p.&nbsp;123</a>; 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Wild">Wild and Seber 2000,
+p.&nbsp;518</a>).</p>
+
+<p>21 The explicit interpretation of correlation  in terms
+of distance does not appear in the "Thirteen Ways" summary
+article by <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Rodgers">Rodgers and Nicewander (1988)</a>, nor in the
+follow-up papers by <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Rovine">Rovine and von Eye (1997)</a> and 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/secure/v8n3/weldon.cfm#Nelsen">Nelsen (1998)</a>,  
+even though this interpretation appears to be one
+of the most intuitive. </p>
+
+
+<h1>6. Summary</h1>
+
+<p>22 When data are expressed in standardized form,
+correlation and regression methods can be described very
+simply. The difference between fitting a line to points
+and regression is clarified by this simpler presentation.
+The use of <i>n</i> - 1 in formulas for the standard
+deviation and the correlation coefficient is an unnecessary
+complication.  </p>
+
+<h2>Acknowledgments</h2>
+
+<p>The author would like to thank the referees, the editor,
+and an associate editor for helpful comments on the first
+draft.</p>
+
+
+<p></p><hr><p></p>
+
+<h1>References</h1>
+
+<p><a name="Cleveland">Cleveland, W. S. (1993)</a>,
+<cite>Visualizing Data</cite>, Summit, NJ: Hobart Press,
+p. 89.</p>
+
+<p><a name="Freedman">Freedman, D., Pisani, R., and Purves,
+R. (1998)</a>,  <cite>Statistics</cite> (3rd ed.), New
+York: Norton. 
+
+</p><p><a name="Minitab">Minitab Inc. (1994)</a>, <cite>MINITAB Reference Manual</cite>, Release 10Xtra, State College, PA: Author.</p>
+
+<p><a name="Moore">Moore, D. S., and McCabe, G. P. (1993)</a>, <cite>Introduction to the Practice of Statistics</cite> (2nd ed.), New York: Freeman.</p>
+
+<p><a name="Nelsen">Nelsen, R. B. (1998)</a>, "Correlation, Regression Lines, and Moments of Inertia," <cite>The American Statistician</cite>, 52, 343-345.</p> 
+
+<p><a name="Rodgers">Rodgers, J. L., and Nicewander, W. A. (1988)</a>, "Thirteen Ways to Look at the Correlation Coefficient," <cite>The American Statistician</cite>, 42, 59-66.</p>
+
+<p><a name="Rovine">Rovine, M. J., and von Eye, A. (1997)</a>, "A 14th Way to Look at a Correlation Coefficient: Correlation as the Proportion of Matches," <cite>The American Statistician</cite>, 51, 42-46.</p>
+
+<p><a name="Weldon">Weldon, K. L. (1986)</a>,
+<cite>Statistics: A Conceptual Approach</cite>, Englewood
+Cliffs, NJ: Prentice-Hall, p. 144.</p>
+
+<p><a name="Wild">Wild, C. J., and Seber, G. A. F.
+(2000)</a>, <cite>Chance Encounters: A First Course in Data
+Analysis and Inference</cite>, New York: Wiley.</p>
+
+
+<p></p><hr><p></p>
+
+<p>K. L. Weldon<br>
+Department of Mathematics and Statistics<br>
+Simon Fraser University<br>
+8888 University Drive<br>
+Burnaby, BC, Canada V5A 1S6<br>
+</p><address>weldon@sfu.ca</address><p></p>
+
+<p></p><hr><p></p>
+
+<p align="center"><font face="Arial"><small><a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/index.html">JSE Homepage</a> | <a href="https://web.archive.org/web/20130307063836/https://www.amstat.org/publications/jse/JSEForm.htm">Subscription 
+Information</a> | <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/contents.cfm">Current Issue</a> | 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/toc.html">JSE Archive 
+(1993-1998)</a> | <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/archive.htm">Data Archive</a> | <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/jindex.html">Index</a> | Search JSE 
+| <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/information.html">JSE 
+Information Service</a> | <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/board.html">Editorial Board</a> | 
+<a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/jse/ifa.html">Information for 
+Authors</a> | <a href="https://web.archive.org/web/20130307063836/mailto:journals@amstat.org">Contact JSE</a> | <a href="https://web.archive.org/web/20130307063836/http://www.amstat.org/publications/">ASA 
+Publications</a></small></font></p>
+
+
+<!--
+     FILE ARCHIVED ON 06:38:36 Mar 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:27:19 Nov 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 84.124
+  exclusion.robots: 0.324
+  exclusion.robots.policy: 0.314
+  RedisCDXSource: 0.638
+  esindex: 0.009
+  LoadShardBlock: 59.971 (3)
+  PetaboxLoader3.datanode: 80.389 (4)
+  CDXLines.iter: 19.667 (3)
+  load_resource: 199.898
+  PetaboxLoader3.resolve: 162.727
+--></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
