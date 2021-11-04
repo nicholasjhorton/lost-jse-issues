@@ -1,0 +1,1009 @@
+
+<!-- saved from url=(0103)https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./braun_8_2_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app58.us.archive.org';v.server_ms=492;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./braun_8_2_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./braun_8_2_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm","20130307063945","https://web.archive.org/","web","/_static/",
+	      "1362638385");
+</script>
+<link rel="stylesheet" type="text/css" href="./braun_8_2_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./braun_8_2_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Journal of Statistics Education, V8N2:Braun</title>
+</head>
+<body bgcolor="#FFFFFF" data-new-gr-c-s-check-loaded="14.1036.0" data-gr-ext-installed=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./braun_8_2_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm","20130307063945",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], "False");
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<h1>Replacing a 'Striped-Box' with the Normal Approximation</h1>
+
+<p>W. John Braun<br>
+University of Western Ontario</p>
+
+<p>
+<cite>Journal of Statistics Education</cite> v.8, n.2 (2000)
+
+</p><p>Copyright (c) 2000 by W. John Braun, all rights
+reserved. This text may be freely shared among individuals,
+but it may not be republished in any medium without express
+written consent from the author and advance notification of
+the editor.</p> 
+
+<p></p><hr><p></p>
+
+<p><strong>Key Words:</strong> Acceptance sampling;
+Binomial nomograph; Single-sampling plan.</p> 
+
+<h2>Abstract</h2>
+
+<p>A simple procedure is presented for obtaining the 
+sample size and acceptance number for a single sample
+acceptance  sampling plan, given the probability of lot
+acceptance for lots having proportion defective equal to
+<i>p</i><sub>1</sub>, and the probability of lot rejection
+for lots having proportion defective equal to
+<i>p</i><sub>2</sub>. The procedure gives a practical
+illustration of the use of the normal approximation to the
+binomial distribution that is appropriate for courses on
+statistical quality control as well as on introductory
+statistics.</p>
+
+<h1>1. Introduction</h1>
+
+<p>1 The most basic acceptance sampling plan considered in
+courses on statistical quality control can be described as
+follows.  A large lot of items is to be inspected in order
+to ascertain its quality.  A random sample of <i>n</i>
+items is selected, and <i>D</i>, the number of defectives
+(or nonconforming items) in the sample is counted.  If
+<i>D</i> exceeds <i>c</i>, the acceptance number, then the
+lot is rejected. Otherwise, it is accepted.  This is the
+so-called single-sampling plan.</p>
+
+<p>2 Because of the simplicity and practicality of such
+plans, they are also appropriate for discussion or
+exercises in introductory courses on statistics, especially
+those designed for mathematics or statistics majors.  They
+are useful as examples of binomial and hypergeometric
+models.  In addition, the designing of such plans (that is,
+deciding upon <i>n</i> and <i>c</i>) provides nice
+nontrivial examples of the use of the normal approximation
+to the binomial distribution, highlighting the importance
+of the continuity correction, which is often one of the
+more difficult topics to motivate in an introductory
+course.  Strangely, the approach taken toward designing
+such plans described in popular quality control textbooks
+avoids mention of the normal approximation to the binomial,
+even if the approximation is described in the 'statistical
+background' chapter. Instead, a 'black-box' method based on
+something called a binomial nomograph is described (see,
+e.g., <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Montgomery">Montgomery 1996</a>), and an
+opportunity to demonstrate the normal approximation in a
+practical setting is missed.</p>
+
+<p>3 Such plans are usually designed (that is, <i>n</i> and
+<i>c</i> are chosen) to  satisfy the competing  interests
+of the lot producer and the lot consumer.  The lot producer
+would like the probability of lot acceptance <nobr>(<img width="50" height="33" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img1.gif" alt="$1 -
+\alpha$">)</nobr>
+
+to be high when the proportion of nonconforming units
+(<i>p</i><sub>1</sub>) is low.  The consumer requires the
+probability of lot acceptance (<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">)
+
+to be low when the proportion of nonconforming units
+(<i>p</i><sub>2</sub>) is high.   In the quality control
+textbook by <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Montgomery">Montgomery (1996, p. 
+620)</a>, it is stated that <i>n</i> and <i>c</i> should be
+taken to satisfy
+
+<a name="Equation1"></a></p><div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="alpha">&nbsp;</a><img width="245" height="56" src="./braun_8_2_files/braun.img3.gif" alt="\begin{displaymath}
+1 - \alpha = \sum_{d=0}^c \left(n \atop d\right) p_1^d (1-p_1)^{n-d}
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(1)</td></tr>
+</tbody></table>
+
+</div>
+
+and
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="beta">&nbsp;</a><img width="218" height="56" src="./braun_8_2_files/braun.img4.gif" alt="\begin{displaymath}
+\beta = \sum_{d=0}^c \left(n \atop d\right) p_2^d (1-p_2)^{n-d}.
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(2)</td></tr>
+</tbody></table>
+
+</div>
+
+
+<p><a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Montgomery">Montgomery</a> goes on to say that
+the nonlinear equations <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation1">(1) and
+(2)</a> have no simple,  direct solution. A binomial
+nomograph is then exhibited for use in obtaining solutions
+to these equations.  The nomograph is a nonregular grid 
+for which a relatively simple, but apparently magical, set
+of rules can be followed to obtain <i>n</i> and <i>c</i>,
+for given <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">, 
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">,
+ <i>p</i><sub>1</sub>, and <i>p</i><sub>2</sub>.  An
+equivalently magical procedure is provided by <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Mitra">Mitra (1998, p. 438-441)</a>, in which case a
+table of <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Grubbs">Grubbs (1949)</a> has been used
+to obtain sampling plans.</p>
+
+
+<a name="Figure1"><hr></a>
+<br><a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun01.jpg">
+<img src="./braun_8_2_files/braun01.icon.jpg">Figure 1 (123.2K jpg)</a>
+
+<p> Figure 1. A Binomial Nomograph from <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Montgomery">Montgomery (1996, p.  620)</a> (used
+with permission).</p>
+
+<hr>
+
+
+
+<p>4 The goal of the present note is to make some remarks
+about the above equations and procedure and to present an
+alternative, simpler procedure for designing
+single-sampling plans.  The idea is that the normal
+approximation to the binomial distribution leads to
+approximations for <i>n</i> and <i>c</i>, given <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">
+and <img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">.
+A key motivation is to replace the black-box nature of the
+above nomograph procedure with a procedure that can be
+relatively easily understood.  Such a procedure could be
+demonstrated in either an introductory statistics course or
+in a quality control course.</p>
+
+
+<h1>2. Some Remarks and the Normal Approximation Solution
+</h1>
+
+<p>5 The first thing to observe is that the nonlinear
+equations will  usually not have an integer-valued
+solution.  Thus, the nomograph will not usually provide a
+true solution, but it will yield an approximate  solution.
+This will be accomplished by choosing the nearest grid
+point on the nomograph to the real-valued solution that the
+nomograph provides.  One problem with this technique is
+that the resulting sampling design may sometimes result in 
+probabilities of acceptance that are too low at
+<i>p</i><sub>1</sub> and/or too high at
+<i>p</i><sub>2</sub>.  What is really sought is a sampling
+design that satisfies (or comes close to satisfying) the
+inequalities</p>
+
+<a name="Equation3"></a><div align="CENTER"><a name="Equation3"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="alpha1">&nbsp;</a><img width="245" height="56" src="./braun_8_2_files/braun.img6.gif" alt="\begin{displaymath}
+1 - \alpha \leq \sum_{d=0}^c \left(n \atop d\right) p_1^d (1-p_1)^{n-d}
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(3)</td></tr>
+</tbody></table>
+</div>
+
+and
+
+<a name="Equation4"></a><div align="CENTER"><a name="Equation4"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="beta1">&nbsp;</a><img width="218" height="56" src="./braun_8_2_files/braun.img7.gif" alt="\begin{displaymath}
+\beta \geq \sum_{d=0}^c \left(n \atop d\right) p_2^d (1-p_2)^{n-d}.
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(4)</td></tr>
+</tbody></table>
+</div>
+<p></p>
+
+
+<p>Usually, one would want to use the smallest value of
+<i>n</i> satisfying both inequalities. Using the normal
+approximation to the binomial distribution with the
+continuity  correction, we have</p> 
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="432" height="67" src="./braun_8_2_files/braun.img8.gif" alt="\begin{displaymath}P(D \leq c) = P(D &lt; c+ 0.5)\doteq P\left(Z &lt; \frac{c + .5 -
+np}{\sqrt{np(1-p)}}\right)
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(5)</td></tr>
+</tbody></table>
+</div>
+
+<p>where <i>Z</i> is a standard normal random variable.
+Thus, inequality <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3)</a> implies</p>
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="152" height="59" src="./braun_8_2_files/braun.img9.gif" alt="\begin{displaymath}\frac{c + .5 - np_1}{\sqrt{np_1(1-p_1)}} \geq z_\alpha
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(6)</td></tr>
+</tbody></table>
+</div>
+
+<p>where 
+<img width="129" height="37" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img10.gif" alt="$P(Z &gt; z_\alpha) = \alpha$">,
+and inequality <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation4">(4)</a> implies</p>
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="n.equation">&nbsp;</a><img width="172" height="59" src="./braun_8_2_files/braun.img11.gif" alt="\begin{displaymath}
+\frac{c + .5 - np_2}{\sqrt{np_2(1-p_2)}} \leq -z_\beta.
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(7)</td></tr>
+</tbody></table>
+</div>
+
+Thus,
+
+<a name="Equation8"></a><div align="CENTER"><a name="Equation8"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="c.equation">&nbsp;</a><img width="249" height="36" src="./braun_8_2_files/braun.img12.gif" alt="\begin{displaymath}
+c \geq z_{\alpha}\sqrt{n p_1 (1-p_1)} + np_1 -.5
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(8)</td></tr>
+</tbody></table>
+</div>
+
+and
+
+<a name="Equation9"></a><div align="CENTER"><a name="Equation9"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="c2.equation">&nbsp;</a><img width="267" height="36" src="./braun_8_2_files/braun.img13.gif" alt="\begin{displaymath}
+c \leq -z_{\beta}\sqrt{n p_2 (1-p_2)} + np_2 - .5.
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(9)</td></tr>
+</tbody></table>
+</div>
+
+<p>A quadratic inequality in <img width="32" height="38" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img14.gif" alt="$\sqrt{n}$">
+can then be obtained by subtracting the first inequality
+from the second.  The  relevant solution satisfies</p>
+
+<a name="Equation10"></a><div align="CENTER"><a name="Equation10"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="n.initial">&nbsp;</a><img width="312" height="60" src="./braun_8_2_files/braun.img15.gif" alt="\begin{displaymath}
+\sqrt{n} \geq
+\frac{z_{\alpha}\sqrt{p_1(1-p_1)}+z_\beta\sqrt{p_2(1-p_2)}}{p_2-p_1}.
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(10)</td></tr>
+</tbody></table>
+</div>
+
+<p>One possible value of <i>n</i> to try is the smallest
+integer satisfying the above inequality. The value of
+<i>c</i> may then be chosen as the smallest integer
+satisfying <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation8">(8)</a>.  However, the
+previously chosen value of <i>n</i> may not satisfy <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation9">(9)</a> for this particular value of
+<i>c</i>, so the value of <i>n</i> may need to be revised
+accordingly. This time, <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation9">(9)</a> may be
+viewed as a quadratic inequality in <img width="32" height="38" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img14.gif" alt="$\sqrt{n}$">,
+and the relevant solution set is given by</p>
+
+<a name="Equation11"></a><div align="CENTER"><a name="Equation11"></a>
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><a name="nrev.equation">&nbsp;</a><img width="421" height="61" src="./braun_8_2_files/braun.img16.gif" alt="\begin{displaymath}
+\sqrt{n} \geq \frac{z_\beta\sqrt{p_2(1-p_2)} +
+\sqrt{z_{\beta}^2p_2(1-p_2)+4(c + .5)p_2}}{2p_2}. \end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(11)</td></tr>
+</tbody></table>
+</div>
+
+<p>The value of <i>n</i> should then be taken as the
+smallest integer satisfying <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation11">(11)</a>.   In some circumstances, one
+may wish to revise <i>c</i>, using the newly revised value
+of <i>n</i> and inequality <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation8">(8)</a>,
+but this is usually not necessary.</p>
+
+<p>6 <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table1">Table 1</a> gives an indication of
+the quality of the sampling plans obtained using the normal
+approximation (with continuity correction)  for some
+typical situations.  The nominal values of  <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">,
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">,
+and <i>p</i><sub>1</sub> are fixed at .05, .1, and .01,
+respectively.  The table provides the sampling plans for
+the tabulated values of <i>p</i><sub>2</sub>, and also
+gives the true binomial probabilities 
+<img width="120" height="37" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img18.gif" alt="$\alpha = P(D &gt; c)$">
+(at <i>p</i><sub>1</sub>) and 
+<img width="120" height="37" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img19.gif" alt="$\beta = P(D \leq c)$">
+(at <i>p</i><sub>2</sub>).  These are listed in the fourth
+and fifth columns, respectively.</p>
+
+
+
+<a name="Table1"><hr></a>
+
+<p><b>Table 1. </b>Some Continuity Corrected
+Single-Sampling Plans for Various Values of
+<i>p</i><sub>2</sub>, With  <nobr><i>p</i><sub>1</sub> = 
+0.01,</nobr> 
+<img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">  = 0.05 (Nominal), and 
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"> = 0.1 (Nominal), Together With Actual 
+Probabilities of Lot Rejection (at <i>p</i><sub>1</sub>)
+and Acceptance (at <i>p</i><sub>2</sub>)</p>
+
+
+<table cellspacing="1" cellpadding="6" border="4">
+<tbody><tr valign="baseline"><td align="CENTER"><i>p</i><sub>2</sub></td>
+<td align="CENTER"><i>n</i></td>
+<td align="CENTER"><i>c</i></td>
+<td align="CENTER"><img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER"><img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td>
+<td align="CENTER">error in <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER">error in <img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td> 
+</tr>
+<tr><td align="CENTER">0.020</td>
+<td align="CENTER">1184</td>
+<td align="CENTER">17</td>
+<td align="CENTER">0.0561</td>
+<td align="CENTER">0.0952</td>
+<td align="CENTER">0.122</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.025</td>
+<td align="CENTER">620</td>
+<td align="CENTER">10</td>
+<td align="CENTER">0.0505</td>
+<td align="CENTER">0.0933</td>
+<td align="CENTER">0.011</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.030</td>
+<td align="CENTER">395</td>
+<td align="CENTER">7</td>
+<td align="CENTER">0.0473</td>
+<td align="CENTER">0.0929</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.035</td>
+<td align="CENTER">268</td>
+<td align="CENTER">5</td>
+<td align="CENTER">0.0542</td>
+<td align="CENTER">0.0905</td>
+<td align="CENTER">0.084</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.040</td>
+<td align="CENTER">202</td>
+<td align="CENTER">4</td>
+<td align="CENTER">0.0536</td>
+<td align="CENTER">0.0906</td>
+<td align="CENTER">0.071</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.045</td>
+<td align="CENTER">179</td>
+<td align="CENTER">4</td>
+<td align="CENTER">0.0349</td>
+<td align="CENTER">0.0914</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.050</td>
+<td align="CENTER">135</td>
+<td align="CENTER">3</td>
+<td align="CENTER">0.0474</td>
+<td align="CENTER">0.0901</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.060</td>
+<td align="CENTER">90</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0619</td>
+<td align="CENTER">0.0880</td>
+<td align="CENTER">0.239</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.070</td>
+<td align="CENTER">77</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0424</td>
+<td align="CENTER">0.0875</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.080</td>
+<td align="CENTER">67</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0298</td>
+<td align="CENTER">0.0882</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.090</td>
+<td align="CENTER">60</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0224</td>
+<td align="CENTER">0.0846</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.100</td>
+<td align="CENTER">40</td>
+<td align="CENTER">1</td>
+<td align="CENTER">0.0607</td>
+<td align="CENTER">0.0805</td>
+<td align="CENTER">0.215</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.120</td>
+<td align="CENTER">33</td>
+<td align="CENTER">1</td>
+<td align="CENTER">0.0430</td>
+<td align="CENTER">0.0810</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.150</td>
+<td align="CENTER">26</td>
+<td align="CENTER">1</td>
+<td align="CENTER">0.0277</td>
+<td align="CENTER">0.0817</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+</tbody></table>
+
+
+
+<p>NOTE: The relative error in the constraints <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3) and (4)</a> is indicated in the last
+two columns.</p>
+
+<p></p><hr><p></p>
+  
+<p>7 It should be noted that, because the normal
+approximation is used, the required inequalities are
+sometimes mildly violated, especially <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3)</a>;  however, the violations are
+usually no worse than those for the Grubbs' table or the
+nomograph.  The sixth and seventh columns of  <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table1">Table 1</a> indicates the relative size of
+these errors.  That is,</p> 
+
+<div align="CENTER">
+
+<img width="253" height="46" src="./braun_8_2_files/braun.img20.gif" alt="\begin{displaymath}\mbox{error in } \alpha = \max\left(\frac{0.05 - \alpha}{0.05},0\right) \end{displaymath}">
+</div>
+
+and
+  
+<div align="CENTER">
+
+<img width="244" height="54" src="./braun_8_2_files/braun.img21.gif" alt="\begin{displaymath}\mbox{error in } \beta = \max\left(\frac{\beta - 0.1}{0.1},0\right) \end{displaymath}">
+</div>
+
+
+<p>8 The method is surprisingly accurate even for cases
+where <i>n</i> turns out to have a small value.  This is
+consistent with observations made by <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Kupper">Kupper and Hafner (1989)</a> about finding
+sample sizes for hypothesis tests when both test size and
+power at a particular alternative are specified.</p>
+
+
+<h1>3. Discussion</h1>
+
+<p>9 In practice, one could check 
+<img width="84" height="37" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img22.gif" alt="$P(D \leq c)$">
+for both values of <i>p</i> to ensure that the sampling
+plan is satisfactory.  If it is not, one could experiment
+with slightly  larger values of <i>n</i> (together with the
+corresponding <i>c</i> values) to obtain plans that
+conform more closely to the nominal values of
+<nobr><img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">
+and <img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">.</nobr></p>
+
+<p>10 It is also possible to try to correct the
+approximation using  Cornish-Fisher expansions (e.g.,
+<nobr><a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Hall">Hall 1992</a></nobr>).  For example,
+one can show  that</p>
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="524" height="36" src="./braun_8_2_files/braun.img23.gif" alt="\begin{displaymath}c \geq np_1 - .5 + z_{\alpha} \sqrt{np_1(1-p_1)} -
+(1-2p_1)(1-z_{\alpha}^2)/6 + O(n^{-1/2})
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(12)</td></tr>
+</tbody></table>
+</div>
+
+and
+
+<div align="CENTER">
+
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="528" height="36" src="./braun_8_2_files/braun.img24.gif" alt="\begin{displaymath}c \leq np_1 -.5 - z_{\beta} \sqrt{np_2(1-p_2)} - (1-2p_2)(1-z_{\beta}^2)/6 +
+O(n^{-1/2}).
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(13)</td></tr>
+</tbody></table>
+</div>
+
+<p>Then, a sampling plan can be obtained by solving another
+quadratic  inequality for <img width="32" height="38" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img14.gif" alt="$\sqrt{n}$">.
+The resulting plans  obey inequalities <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3) and (4)</a> more often than the
+uncorrected plans.  <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table2">Table 2</a> lists the
+corrected plans that correspond to the ones in <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table1">Table 1</a>, together with the actual
+probabilities of rejection at <i>p</i><sub>1</sub> and
+acceptance at <i>p</i><sub>2</sub>. Although not listed in
+the table, there are some plans found by this procedure
+that violate inequality <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3)</a>.</p> 
+
+
+<a name="Table2"><hr></a>
+
+<p><b>Table 2. </b>Cornish-Fisher Corrected
+Single-Sampling Plans for Various Values of
+<i>p</i><sub>2</sub>, With  <i>p</i><sub>1</sub> =  0.01, 
+<img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">  = 0.05 (Nominal), and 
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"> = 0.1 (Nominal), Together With Actual 
+Probabilities of Lot Rejection (at <i>p</i><sub>1</sub>)
+and Acceptance (at <i>p</i><sub>2</sub>)</p>
+
+
+
+<table cellspacing="1" cellpadding="6" border="4">
+<tbody><tr valign="baseline"><td align="CENTER"><i>p</i><sub>2</sub></td>
+<td align="CENTER"><i>n</i></td>
+<td align="CENTER"><i>c</i></td>
+<td align="CENTER"><img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER"><img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td>
+<td align="CENTER">error in <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER">error in <img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td>
+</tr>
+<tr><td align="CENTER">0.020</td>
+<td align="CENTER">1236</td>
+<td align="CENTER">18</td>
+<td align="CENTER">0.0466</td>
+<td align="CENTER">0.0989</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.025</td>
+<td align="CENTER">615</td>
+<td align="CENTER">10</td>
+<td align="CENTER">0.0483</td>
+<td align="CENTER">0.0985</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.030</td>
+<td align="CENTER">391</td>
+<td align="CENTER">7</td>
+<td align="CENTER">0.0451</td>
+<td align="CENTER">0.0985</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.035</td>
+<td align="CENTER">300</td>
+<td align="CENTER">6</td>
+<td align="CENTER">0.0328</td>
+<td align="CENTER">0.0976</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.040</td>
+<td align="CENTER">231</td>
+<td align="CENTER">5</td>
+<td align="CENTER">0.0298</td>
+<td align="CENTER">0.0972</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.045</td>
+<td align="CENTER">177</td>
+<td align="CENTER">4</td>
+<td align="CENTER">0.0335</td>
+<td align="CENTER">0.0964</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.050</td>
+<td align="CENTER">133</td>
+<td align="CENTER">3</td>
+<td align="CENTER">0.0453</td>
+<td align="CENTER">0.0961</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.060</td>
+<td align="CENTER">110</td>
+<td align="CENTER">3</td>
+<td align="CENTER">0.0250</td>
+<td align="CENTER">0.0980</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.070</td>
+<td align="CENTER">75</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0397</td>
+<td align="CENTER">0.0968</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.080</td>
+<td align="CENTER">66</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0287</td>
+<td align="CENTER">0.0935</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.090</td>
+<td align="CENTER">58</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0205</td>
+<td align="CENTER">0.0965</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.100</td>
+<td align="CENTER">52</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0154</td>
+<td align="CENTER">0.0966</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.120</td>
+<td align="CENTER">43</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0092</td>
+<td align="CENTER">0.0970</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+<tr><td align="CENTER">0.150</td>
+<td align="CENTER">25</td>
+<td align="CENTER">1</td>
+<td align="CENTER">0.0258</td>
+<td align="CENTER">0.0931</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0</td>
+</tr>
+</tbody></table>
+
+<p>NOTE: The relative error in the constraints <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3) and (4)</a> is indicated in the last
+two columns.</p>
+
+
+<p></p><hr><p></p>
+
+
+<p>11 One might argue that when using the Cornish-Fisher
+correction, the  simplicity and directness of the method
+are sacrificed.  For most practical purposes, the normal
+approximation is probably adequate, and it is certainly
+easier for an undergraduate student to understand.  On the
+other hand, it might not hurt for a senior undergraduate to
+see that there are relatively simple ways to improve on the
+normal approximation.</p>
+
+<p>12 The continuity correction itself seems to be necessary
+in order to provide accurate results.  If the correction is
+ignored, the above inequalities are violated fairly often,
+and sometimes by a substantial margin, as can be seen from
+<a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table3">Table 3</a>.  That table corresponds
+exactly to <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Table1">Table 1</a>, except that</p>
+
+<div align="CENTER">
+
+<img width="210" height="36" src="./braun_8_2_files/braun.img25.gif" alt="\begin{displaymath}c \geq z_{\alpha}\sqrt{n p_1 (1-p_1)} + np_1\end{displaymath}">
+</div>
+
+<p>is used in place of <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation8">(8)</a> and
+</p>
+
+<div align="CENTER">
+
+<img width="379" height="61" src="./braun_8_2_files/braun.img26.gif" alt="\begin{displaymath}\sqrt{n} \geq \frac{z_\beta\sqrt{p_2(1-p_2)} +
+\sqrt{z_{\beta}^2p_2(1-p_2)+4(c)p_2}}{2p_2}\end{displaymath}">
+</div>
+
+<p>is used in place of <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation11">(11)</a>. 
+Inequality <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation10">(10)</a> is still used to
+obtain the initial estimate of <i>n</i>.</p>
+
+
+
+
+<a name="Table3"><hr></a>
+
+<p><b>Table 3. </b>Uncorrected
+Single-Sampling Plans for Various Values of
+<i>p</i><sub>2</sub>, With  <i>p</i><sub>1</sub> =  0.01, 
+<img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">  = 0.05 (Nominal), and 
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"> = 0.1 (Nominal), Together With Actual 
+Probabilities of Lot Rejection (at <i>p</i><sub>1</sub>)
+and Acceptance (at <i>p</i><sub>2</sub>)</p>
+
+
+<table cellspacing="1" cellpadding="6" border="4">
+<tbody><tr valign="baseline"><td align="CENTER"><i>p</i><sub>2</sub></td>
+<td align="CENTER"><i>n</i></td>
+<td align="CENTER"><i>c</i></td>
+<td align="CENTER"><img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER"><img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td>
+<td align="CENTER">error in <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$"></td>
+<td align="CENTER">error in <img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$"></td>
+</tr>
+<tr><td align="CENTER">0.020</td>
+<td align="CENTER">1213</td>
+<td align="CENTER">18</td>
+<td align="CENTER">0.0400</td>
+<td align="CENTER">0.115</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.155</td>
+</tr>
+<tr><td align="CENTER">0.025</td>
+<td align="CENTER">596</td>
+<td align="CENTER">10</td>
+<td align="CENTER">0.0401</td>
+<td align="CENTER">0.120</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.203</td>
+</tr>
+<tr><td align="CENTER">0.030</td>
+<td align="CENTER">375</td>
+<td align="CENTER">7</td>
+<td align="CENTER">0.0368</td>
+<td align="CENTER">0.123</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.240</td>
+</tr>
+<tr><td align="CENTER">0.035</td>
+<td align="CENTER">286</td>
+<td align="CENTER">6</td>
+<td align="CENTER">0.0262</td>
+<td align="CENTER">0.125</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.251</td>
+</tr>
+<tr><td align="CENTER">0.040</td>
+<td align="CENTER">218</td>
+<td align="CENTER">5</td>
+<td align="CENTER">0.0233</td>
+<td align="CENTER">0.128</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.286</td>
+</tr>
+<tr><td align="CENTER">0.045</td>
+<td align="CENTER">165</td>
+<td align="CENTER">4</td>
+<td align="CENTER">0.0258</td>
+<td align="CENTER">0.131</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.317</td>
+</tr>
+<tr><td align="CENTER">0.050</td>
+<td align="CENTER">148</td>
+<td align="CENTER">4</td>
+<td align="CENTER">0.0170</td>
+<td align="CENTER">0.132</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.329</td>
+</tr>
+<tr><td align="CENTER">0.060</td>
+<td align="CENTER">101</td>
+<td align="CENTER">3</td>
+<td align="CENTER">0.0189</td>
+<td align="CENTER">0.137</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.378</td>
+</tr>
+<tr><td align="CENTER">0.070</td>
+<td align="CENTER">87</td>
+<td align="CENTER">3</td>
+<td align="CENTER">0.0115</td>
+<td align="CENTER">0.133</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.339</td>
+</tr>
+<tr><td align="CENTER">0.080</td>
+<td align="CENTER">59</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0214</td>
+<td align="CENTER">0.139</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.392</td>
+</tr>
+<tr><td align="CENTER">0.090</td>
+<td align="CENTER">52</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0153</td>
+<td align="CENTER">0.141</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.417</td>
+</tr>
+<tr><td align="CENTER">0.100</td>
+<td align="CENTER">47</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0116</td>
+<td align="CENTER">0.138</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.383</td>
+</tr>
+<tr><td align="CENTER">0.120</td>
+<td align="CENTER">39</td>
+<td align="CENTER">2</td>
+<td align="CENTER">0.0069</td>
+<td align="CENTER">0.137</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.374</td>
+</tr>
+<tr><td align="CENTER">0.150</td>
+<td align="CENTER">21</td>
+<td align="CENTER">1</td>
+<td align="CENTER">0.0185</td>
+<td align="CENTER">0.155</td>
+<td align="CENTER">0</td>
+<td align="CENTER">0.550</td>
+</tr>
+</tbody></table>
+
+<p>NOTE: The relative error in the constraints <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/secure/v8n2/braun.cfm#Equation3">(3) and (4)</a> is indicated in the last
+two columns.</p>
+
+<p></p><hr><p></p>
+
+
+<p>13 It should be noted that the nomograph is unable to
+provide sampling plans outside a certain range.  For
+example, if <img width="17" height="17" align="BOTTOM" border="0" src="./braun_8_2_files/braun.img5.gif" alt="$\alpha$">
+= .001,
+<img width="16" height="34" align="MIDDLE" border="0" src="./braun_8_2_files/braun.img2.gif" alt="$\beta$">
+= .1, <i>p</i><sub>1</sub> = .01, and <i>p</i><sub>2</sub>
+= .02, then the nomograph cannot be used to obtain a plan,
+but the normal approximation method gives the sampling
+plan: <i>n</i> = 2416 and  <i>c</i> = 39 and</p>
+
+<div align="CENTER">
+
+<img width="248" height="33" src="./braun_8_2_files/braun.img27.gif" alt="\begin{displaymath}P(D \leq c) = 0.0018 \ \ \ \mbox{if } p = .01 \end{displaymath}">
+</div>
+
+and 
+
+<div align="CENTER">
+
+<img width="245" height="33" src="./braun_8_2_files/braun.img28.gif" alt="\begin{displaymath}P(D \leq c) = 0.097 \ \ \ \mbox{if } p = .02. \end{displaymath}">
+</div>
+
+<p>Also, the nomograph will not yield any sampling plans
+when <i>p</i> &lt; .01.   The Grubbs' table will not
+provide any sampling plans where <i>c</i> exceeds 15.  The
+normal approximation is much more widely applicable.</p>
+
+<p>14 Finally, there is the important pedagogical value of
+the above approach.   Not only is this a relatively simple
+way to replace a  black-box (or striped-box) solution, but
+it is also a useful application of the normal approximation
+to the binomial distribution.</p>
+
+<h2>Acknowledgments</h2>
+
+<p>The helpful comments and suggestions of three anonymous
+referees have led to a substantial improvement in the paper
+and are gratefully acknowledged. This work was supported by
+a research grant from  the Natural Sciences and Engineering
+Research Council of Canada (NSERC) and was completed during
+a visit to the Centre for Mathematics  and Its Applications
+at the Australian National University in Canberra,
+Australia.</p>
+
+
+<p></p><hr><p></p>
+
+<h1>References</h1>
+
+<p><a name="Grubbs">Grubbs, F. E. (1949), "On Designing
+Single Sampling Plans," <cite>Annals of Mathematical
+Statistics</cite>, 20, 256.</a></p><a name="Grubbs">
+
+</a><p><a name="Grubbs"></a><a name="Hall">Hall, P. (1992), <cite>The Bootstrap and
+Edgeworth Expansion</cite>, New York: Springer-Verlag.</a></p><a name="Hall"> 
+
+</a><p><a name="Hall"></a><a name="Kupper">Kupper, L. L., and Hafner, K. B. (1989),
+"How Appropriate Are Popular Sample Size Formulas?"
+<cite>The American Statistician</cite>, 43, 101-105.</a></p><a name="Kupper">
+
+</a><p><a name="Kupper"></a><a name="Mitra">Mitra, A. (1998), <cite>Fundamentals of
+Quality Control and Improvement</cite>  (2nd ed.),  Upper
+Saddle River, New Jersey: Prentice  Hall. </a></p><a name="Mitra">
+
+</a><p><a name="Mitra"></a><a name="Montgomery">Montgomery, D. C. (1996),
+<cite>Introduction to Statistical Quality  Control</cite>
+(3rd ed.), New York: Wiley.</a></p><a name="Montgomery">
+
+
+
+<p></p><hr><p></p>
+
+<p>W. John Braun<br>
+Department of Statistical and Actuarial Sciences<br> 
+Western Science Centre<br>
+University of Western Ontario<br> 
+London, Ontario, Canada  N6A 5B7<br>
+</p><address>braun@stats.uwo.ca</address><p></p>
+
+
+<p></p><hr><p></p>
+
+</a><p align="center"><a name="Montgomery"><font face="Arial"><small></small></font></a><font face="Arial"><small><a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/index.html">JSE Homepage</a> | <a href="https://web.archive.org/web/20130307063945/https://www.amstat.org/publications/jse/JSEForm.htm">Subscription
+Information</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/contents.cfm">Current Issue</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/toc.html">JSE Archive (1993-1998)</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/archive.htm">Data Archive</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/jindex.html">Index</a> | Search
+JSE | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/information.html">JSE Information Service</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/board.html">Editorial Board</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/jse/ifa.html">Information for Authors</a> | <a href="https://web.archive.org/web/20130307063945/mailto:journals@amstat.org">Contact JSE</a> | <a href="https://web.archive.org/web/20130307063945/http://www.amstat.org/publications/">ASA Publications</a></small></font></p>
+
+ 
+<!--
+     FILE ARCHIVED ON 06:39:45 Mar 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:54:59 Nov 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 3.217
+  LoadShardBlock: 178.153 (3)
+  PetaboxLoader3.resolve: 48.707
+  load_resource: 264.909
+  exclusion.robots: 0.207
+  CDXLines.iter: 18.498 (3)
+  captures_list: 203.109
+  esindex: 0.011
+  exclusion.robots.policy: 0.197
+  PetaboxLoader3.datanode: 309.238 (4)
+--></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
