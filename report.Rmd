@@ -1,0 +1,61 @@
+---
+title: "Report"
+author: ""
+date: ""
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+library(googlesheets4)
+library(dbplyr)
+library(tidyverse)  
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+Delete this sentence and enter your text here.
+
+```{r}
+board <- read_sheet("https://docs.google.com/spreadsheets/d/1MGvhHoNrxp3xxfhu7CHUdmxVMPAU1wvLUNY3DNldDvg/edit#gid=776978137")
+  
+board <- board %>% 
+  na.omit() %>%
+  mutate(
+    name = case_when(
+      name == "Gabriella Belli" ~ "Gabriella M. Belli",
+      name == "Jackie Miller" ~ "Jack Miller",
+      name == "Gudmund Iversen" ~ "Gudmund R. Iversen",
+      name == "Jerry Moreno" ~ "Jerry L. Moreno", 
+      name == "Joseph Wisenbaker" ~ "Joseph M. Wisenbaker",
+      name == "Margaret Mackisack" ~ "Margaret S. Mackisack",
+      TRUE ~ name
+    ),
+    role = case_when(
+      role == "editorial board" ~ "associate editor",
+      str_detect(role, "editor, .*") ~ "section editor",
+      TRUE ~ role
+    )
+  )
+
+name_list <- board %>%
+  select(name) %>%
+  distinct() 
+
+role_list <- board %>%
+  select(role) %>%
+  distinct() 
+
+
+```
+
