@@ -42,6 +42,8 @@ board <- board %>%
       TRUE ~ name
     ),
     role = case_when(
+      role == "journals administrator, american statistical
+      association" ~ "journals manager",
       role == "editorial board" ~ "associate editor",
       str_detect(role, "editor, .*") ~ "section editor",
       TRUE ~ role
