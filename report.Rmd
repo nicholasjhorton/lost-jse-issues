@@ -19,12 +19,11 @@ require(mosaic)   # Load additional packages here
 library(googlesheets4)
 library(dbplyr)
 library(tidyverse)  
+library(kableExtra)
 knitr::opts_chunk$set(
   tidy=FALSE,     # display code as typed
   size="small")   # slightly smaller font for code
 ```
-
-Delete this sentence and enter your text here.
 
 ```{r, message = FALSE, warning = FALSE}
 board <- read_sheet("https://docs.google.com/spreadsheets/d/1MGvhHoNrxp3xxfhu7CHUdmxVMPAU1wvLUNY3DNldDvg/edit#gid=776978137")
@@ -57,5 +56,10 @@ name_list <- board %>%
 role_list <- board %>%
   select(role) %>%
   distinct() 
+```
+
+```{r}
+activity <- board %>%
+  separate(col = year, into = c("year", NA))
 ```
 
